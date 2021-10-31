@@ -4,15 +4,74 @@
 <head>
   <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
   <link rel="stylesheet" href="styles/style.css"/>
-  <title>sychology</title>
+  <title>sign in</title>
 </head>
 <body>
- <center> <h1>
-    <mark>sychology mag</mark>
-  </h1>
-  <img src="https://theranest.com/wp-content/uploads/2018/02/Opening-New-Communications-4.png" alt="sychologe mag">
-  <hr>
- <aside> <form  action="http://127.0.0.1:5500/index.html" id="login" >    
+  <!-- header------------------------------------------------------- -->
+    <header>
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUSetFoHV5EbijjY5oiDpVfnHUTuIPD2XJBA&usqp=CAU"
+        alt="logo"
+        width="100px"
+        height="100px"
+      />
+      <center>
+        <h1>Psychology Mag</h1>
+      </center>
+
+      <section dir="rtl">
+        <input type="text" name="search" id="search" />
+        <input type="submit" value="search" />
+      </section>
+      <hr />
+      <nav>
+        <center>
+          <img
+            src="https://cdn0.iconfinder.com/data/icons/essentials-solid-glyphs-vol-1/100/House-Home-Property-128.png"
+            alt="logo"
+            width="30px"
+            height="30px"
+          />
+          <img
+            src="https://cdn1.iconfinder.com/data/icons/materia-music-vol-1/24/001_014_bell_ring_sound_alert-128.png"
+            alt="logo"
+            width="30px"
+            height="30px"
+          />
+          <img
+            src="https://cdn4.iconfinder.com/data/icons/glyphs/24/icons_email-128.png"
+            alt="logo"
+            width="30px"
+            height="30px"
+          />
+          <img
+            src="https://cdn0.iconfinder.com/data/icons/essentials-solid-glyphs-vol-1/100/Message-Chat-Communication-128.png"
+            alt="logo"
+            width="30px"
+            height="30px"
+          />
+        </center>
+
+        <a href="/pages/category.html" target="_blanked">
+          <strong>Category</strong>
+        </a>
+        <a href="/pages/post.html" target="_blanked"><strong>Posts</strong></a>
+
+        <section dir="rtl">
+          <a href="/pages/sign-in.html" target="_blanked">
+            <strong>Sign in </strong>
+          </a>
+
+          <a href="/pages/sign-in.html" target="_blanked">
+            <strong>Log in</strong>
+          </a>
+        </section>
+      </nav>
+    </header>
+     <!-- main content--------------------------------------------------------------------------- -->
+ <main>
+     <hr>
+      <aside> <form  action="http://127.0.0.1:5500/index.html" id="login" >    
         <label for="name">
         <b>
           User Name     
@@ -35,6 +94,43 @@
         <br><br>    
         
     </form>  </center>    </aside>
-</div>    
+</>    
+ </main>
+ <!-- footer------------------------------------------------------ -->
+  <footer>
+      <fieldset>
+        <h4>Connect with Us</h4>
+        <img
+          src="https://cdn3.iconfinder.com/data/icons/system-basic-vol-5/20/icon-send-email-message-paper-plane-2-128.png"
+          alt="logo"
+          width="20px"
+          height="20px"
+        />
+        <img
+          src="https://cdn4.iconfinder.com/data/icons/glyphs/24/icons_email-128.png"
+          alt="logo"
+          width="20px"
+          height="20px"
+        />
+        <img
+          src="https://cdn0.iconfinder.com/data/icons/essentials-solid-glyphs-vol-1/100/Message-Chat-Communication-128.png"
+          alt="logo"
+          width="20px"
+          height="20px"
+        />
+      </fieldset>
+      <fieldset>
+        <h4>Legal</h4>
+        <ul>
+          <li>Privacy Policy</li>
+          <li>Terms Of Use</li>
+        </ul>
+      </fieldset>
+      <fieldset>
+        <h4>Newsletter Singup</h4>
+        <input type="text" name="submit" id="submit" />
+        <input type="submit" value="submit" />
+      </fieldset>
+    </footer>
 </body>
 </html>
