@@ -6,5 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
-  <body background="/img/website-background-texture-20 (1).jpg"></body>
+  <body>
+    <aside>
+      <p>Viewed by 1503 people</p>
+      <p itemscope itemtype="http://schema.org/Person">
+        Author:
+        <span itemprop="name">John Smith</span>,
+        <span itemprop="jobTitle">Senior Software Developer</span>
+        at
+        <span
+          itemprop="worksFor"
+          itemscope
+          itemtype="https://schema.org/Corporation"
+        >
+          <span itemtype="name">Google</span>,
+        </span>
+        <span
+          itemprop="address"
+          itemscope
+          itemtype="http://schema.org/PostalAddress"
+        >
+          <span itemprop="addressLocality">Mountain View</span>,
+          <span itemprop="addressRegion">California</span>
+        </span>
+      </p>
+    </aside>
+  </body>
 </html>
